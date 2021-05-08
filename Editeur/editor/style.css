@@ -1,0 +1,27 @@
+body {
+	background-color: #939393;
+}
+html,body { margin:0; padding:0; height:100%; width:100%; overflow: hidden;}
+
+#editor {
+	top: 5px;
+	left : 10px;
+    height: 650px;
+    width: 1000px;
+    display:inline-block;
+    border-radius: 15px
+}
+
+#container {
+	height:100%;
+	width:auto;
+  white-space : nowrap; 
+  overflow : hidden;
+  position:relative;
+}
+
+
+
+/* disable tag matching */
+.ace_editor .ace_marker-layer .ace_bracket { display: none }
+
